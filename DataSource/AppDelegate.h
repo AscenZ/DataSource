@@ -8,10 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class ReturnModel;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+
++ (instancetype)sharedDelegate;
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (readonly, strong, nonatomic) ReturnModel *returnModel;
 
 @end
 

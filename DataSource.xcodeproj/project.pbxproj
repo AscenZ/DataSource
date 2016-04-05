@@ -15,6 +15,12 @@
 		D0F8A4B11CB3428000F99C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F8A4AF1CB3428000F99C6E /* LaunchScreen.storyboard */; };
 		D0F8A4BC1CB3428000F99C6E /* _DataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F8A4BB1CB3428000F99C6E /* _DataSourceTests.m */; };
 		D0F8A4C71CB3428000F99C6E /* _DataSourceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F8A4C61CB3428000F99C6E /* _DataSourceUITests.m */; };
+		D0F8A4D71CB342AE00F99C6E /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F8A4D61CB342AE00F99C6E /* ArrayDataSource.m */; };
+		D0F8A4E21CB342E900F99C6E /* ReturnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F8A4DD1CB342E900F99C6E /* ReturnModel.m */; };
+		D0F8A4E31CB342E900F99C6E /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F8A4DE1CB342E900F99C6E /* TestModel.m */; };
+		D0F8A4EB1CB3464300F99C6E /* TestModelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F8A4E81CB3464300F99C6E /* TestModelCell.xib */; };
+		D0F8A4EC1CB3464300F99C6E /* TestModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F8A4E91CB3464300F99C6E /* TestModelCell.m */; };
+		D0F8A4ED1CB3464300F99C6E /* TestModelCell+SetName.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F8A4EA1CB3464300F99C6E /* TestModelCell+SetName.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		D0F8A4C21CB3428000F99C6E /* DataSourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "\U0010DataSourceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F8A4C61CB3428000F99C6E /* _DataSourceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DataSourceUITests.m; sourceTree = "<group>"; };
 		D0F8A4C81CB3428000F99C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F8A4D51CB342AE00F99C6E /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		D0F8A4D61CB342AE00F99C6E /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		D0F8A4D81CB342E900F99C6E /* ReturnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnModel.h; sourceTree = "<group>"; };
+		D0F8A4D91CB342E900F99C6E /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		D0F8A4DD1CB342E900F99C6E /* ReturnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnModel.m; sourceTree = "<group>"; };
+		D0F8A4DE1CB342E900F99C6E /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		D0F8A4E61CB3464300F99C6E /* TestModelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModelCell.h; sourceTree = "<group>"; };
+		D0F8A4E71CB3464300F99C6E /* TestModelCell+SetName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestModelCell+SetName.h"; sourceTree = "<group>"; };
+		D0F8A4E81CB3464300F99C6E /* TestModelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestModelCell.xib; sourceTree = "<group>"; };
+		D0F8A4E91CB3464300F99C6E /* TestModelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModelCell.m; sourceTree = "<group>"; };
+		D0F8A4EA1CB3464300F99C6E /* TestModelCell+SetName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TestModelCell+SetName.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +118,20 @@
 		D0F8A4A01CB3428000F99C6E /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				D0F8A4D41CB342A200F99C6E /* DataSouce */,
 				D0F8A4A41CB3428000F99C6E /* AppDelegate.h */,
 				D0F8A4A51CB3428000F99C6E /* AppDelegate.m */,
 				D0F8A4A71CB3428000F99C6E /* ViewController.h */,
 				D0F8A4A81CB3428000F99C6E /* ViewController.m */,
+				D0F8A4D91CB342E900F99C6E /* TestModel.h */,
+				D0F8A4DE1CB342E900F99C6E /* TestModel.m */,
+				D0F8A4D81CB342E900F99C6E /* ReturnModel.h */,
+				D0F8A4DD1CB342E900F99C6E /* ReturnModel.m */,
+				D0F8A4E61CB3464300F99C6E /* TestModelCell.h */,
+				D0F8A4E91CB3464300F99C6E /* TestModelCell.m */,
+				D0F8A4E81CB3464300F99C6E /* TestModelCell.xib */,
+				D0F8A4E71CB3464300F99C6E /* TestModelCell+SetName.h */,
+				D0F8A4EA1CB3464300F99C6E /* TestModelCell+SetName.m */,
 				D0F8A4AA1CB3428000F99C6E /* Main.storyboard */,
 				D0F8A4AD1CB3428000F99C6E /* Assets.xcassets */,
 				D0F8A4AF1CB3428000F99C6E /* LaunchScreen.storyboard */,
@@ -138,6 +165,15 @@
 				D0F8A4C81CB3428000F99C6E /* Info.plist */,
 			);
 			path = "\U0010DataSourceUITests";
+			sourceTree = "<group>";
+		};
+		D0F8A4D41CB342A200F99C6E /* DataSouce */ = {
+			isa = PBXGroup;
+			children = (
+				D0F8A4D51CB342AE00F99C6E /* ArrayDataSource.h */,
+				D0F8A4D61CB342AE00F99C6E /* ArrayDataSource.m */,
+			);
+			name = DataSouce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +282,7 @@
 				D0F8A4B11CB3428000F99C6E /* LaunchScreen.storyboard in Resources */,
 				D0F8A4AE1CB3428000F99C6E /* Assets.xcassets in Resources */,
 				D0F8A4AC1CB3428000F99C6E /* Main.storyboard in Resources */,
+				D0F8A4EB1CB3464300F99C6E /* TestModelCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F8A4EC1CB3464300F99C6E /* TestModelCell.m in Sources */,
 				D0F8A4A91CB3428000F99C6E /* ViewController.m in Sources */,
 				D0F8A4A61CB3428000F99C6E /* AppDelegate.m in Sources */,
+				D0F8A4ED1CB3464300F99C6E /* TestModelCell+SetName.m in Sources */,
+				D0F8A4D71CB342AE00F99C6E /* ArrayDataSource.m in Sources */,
+				D0F8A4E31CB342E900F99C6E /* TestModel.m in Sources */,
+				D0F8A4E21CB342E900F99C6E /* ReturnModel.m in Sources */,
 				D0F8A4A31CB3428000F99C6E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
